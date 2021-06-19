@@ -1,0 +1,22 @@
+.title {
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.image {
+    width: 15%;
+}
+
+.menus {
+  color: #000;
+  font-weight: 450;
+}
+
+.menus:hover {
+  color: #00A5AF !important;
+}
+
+.nav-active {
+  color: #00A5AF !important;
+}
