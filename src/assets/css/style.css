@@ -32,3 +32,8 @@
   width: 50rem;
   background-color: #fff;
 }
+
+.card-album:hover {
+  cursor: pointer;
+  background-color: #EEEEEE;
+}

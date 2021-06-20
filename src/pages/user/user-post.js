@@ -1,9 +1,8 @@
 import axios from "axios";
 import "../../assets/css/style.css";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import React, { Component } from "react";
 import { Card, Col, Container, Row } from "react-bootstrap";
-import { Link } from "react-router-dom";
 
 class userPost extends Component {
   constructor() {

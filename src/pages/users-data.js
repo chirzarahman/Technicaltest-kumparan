@@ -43,14 +43,24 @@ class usersPage extends Component {
                       <td>{user.name}</td>
                       <td>{user.email}</td>
                       <td className="text-center">
-                        <Link
-                          to={`/user-post/${user.id}`}
-                          className="text-decoration-none text-dark"
-                        >
-                          <Button variant="primary" size="sm2">
-                            Post
-                          </Button>
-                        </Link>
+                        <div className="d-inline">
+                          <Link
+                            to={`/user-post/${user.id}`}
+                            className="text-decoration-none text-dark"
+                          >
+                            <Button variant="primary" size="sm">
+                              Post
+                            </Button>
+                          </Link>
+                          <Link
+                            to={`/user-album/${user.id}`}
+                            className="text-decoration-none text-dark"
+                          >
+                            <Button variant="primary" size="sm" className="mx-2">
+                              Album
+                            </Button>
+                          </Link>
+                        </div>
                       </td>
                     </tr>
                   );
