@@ -5,7 +5,7 @@ import "../../assets/css/style.css";
 class Footer extends Component {
   render() {
     return (
-      <footer className="footer mt-auto py-3 bg-light">
+      <footer className="footer mt-5 py-3 bg-light">
         <Container>
           <p className="text-muted text-center">
             &copy; Technical Test from Kumparan

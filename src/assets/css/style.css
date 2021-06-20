@@ -1,11 +1,11 @@
 .title {
-    font-size: 50px;
-    font-weight: 600;
-    margin: 0;
+  font-size: 50px;
+  font-weight: 600;
+  margin: 0;
 }
 
 .image {
-    width: 15%;
+  width: 15%;
 }
 
 .menus {
@@ -14,9 +14,21 @@
 }
 
 .menus:hover {
-  color: #00A5AF !important;
+  color: #00a5af !important;
 }
 
 .nav-active {
-  color: #00A5AF !important;
+  color: #00a5af !important;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.card-users {
+  width: 50rem;
+  background-color: #fff;
 }

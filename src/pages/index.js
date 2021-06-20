@@ -4,14 +4,7 @@ import logo from "../assets/images/KUMPARAN.png";
 
 const Home = () => {
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        height: "90vh",
-      }}
-    >
+    <div className="center">
       <h1 className="title">Technical Test</h1>
       <img src={logo} alt="logo-kumparan" className="image" />
     </div>
