@@ -37,3 +37,7 @@
   cursor: pointer;
   background-color: #EEEEEE;
 }
+
+.thumbnail {
+  border-radius: 10px;
+}

@@ -34,7 +34,10 @@ class userAlbum extends Component {
           {this.state.userAlbums.map((i) => {
             return (
               <Col>
-                <Link to="/" className="text-decoration-none text-dark">
+                <Link
+                  to={`/user-photos/${i.id}`}
+                  className="text-decoration-none text-dark"
+                >
                   <Card body className="card-album">
                     {i.title}
                   </Card>
